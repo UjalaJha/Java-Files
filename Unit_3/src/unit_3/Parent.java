@@ -9,11 +9,9 @@ package unit_3;
  *
  * @author prakash
  */
-public class Parent
-{
-    void Displayparent() 
-    { 
-		System.out.println("This is a content of parent class"); 
-    } 
-}
+public class Parent {
 
+    void Displayparent() {
+        System.out.println("This is a content of parent class");
+    }
+}

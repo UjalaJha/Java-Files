@@ -16,12 +16,12 @@ public class Q1U3 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-                Child1 b = new Child1();
-		Child2 c = new Child2();
-		b.Displayparent();
-		c.Displayparent();
-                b.Displaychild1();
-		c.Displaychild2();
+        Child1 b = new Child1();
+        Child2 c = new Child2();
+        b.Displayparent();
+        c.Displayparent();
+        b.Displaychild1();
+        c.Displaychild2();
     }
-    
+
 }

@@ -9,11 +9,9 @@ package unit_3;
  *
  * @author prakash
  */
-public class Child1 extends Parent
-{
-    void Displaychild1() 
-    { 
-		System.out.println("This is a content of child1 class"); 
-    } 
-}
+public class Child1 extends Parent {
 
+    void Displaychild1() {
+        System.out.println("This is a content of child1 class");
+    }
+}

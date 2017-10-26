@@ -12,16 +12,14 @@ import java.util.Scanner;
  * @author prakash
  */
 public class Q6U1 {
-    
-    
-     public static void main(String[] args) 
-    {
-        Demo D=new Demo();
-        Scanner sc=new Scanner(System.in);
-        
+
+    public static void main(String[] args) {
+        Demo D = new Demo();
+        Scanner sc = new Scanner(System.in);
+
         D.area(4);
-        D.area(3,4);
+        D.area(3, 4);
         D.area(4.4);
-        
-}
+
+    }
 }

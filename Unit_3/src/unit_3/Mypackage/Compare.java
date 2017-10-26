@@ -10,15 +10,12 @@ package unit_3.Mypackage;
  * @author prakash
  */
 public class Compare {
-    public int getMax(int x, int y) 
-    {
-      if ( x > y )
-      {
-         return x;
-      }
-      
-      else {
-         return y;
-      }
+
+    public int getMax(int x, int y) {
+        if (x > y) {
+            return x;
+        } else {
+            return y;
+        }
     }
 }

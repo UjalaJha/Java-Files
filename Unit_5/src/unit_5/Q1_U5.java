@@ -7,6 +7,7 @@ package unit_5;
 
 import java.applet.*;
 import java.awt.*;
+
 /*
  <applet code="Q1_U5" width=50 height=50>
  </applet>
@@ -14,11 +15,9 @@ import java.awt.*;
  */
 public class Q1_U5 extends Applet {
 
-     
-    public void paint(Graphics g)
-    {
-        int [] x = {50, 150, 100};
-        int [] y = {100, 100, 25};
+    public void paint(Graphics g) {
+        int[] x = {50, 150, 100};
+        int[] y = {100, 100, 25};
         g.setColor(Color.red);
         g.drawRect(50, 100, 100, 100);
         g.fillRect(50, 100, 100, 100);

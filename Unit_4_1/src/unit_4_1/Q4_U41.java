@@ -9,30 +9,25 @@ package unit_4_1;
  *
  * @author prakash
  */
-class Q4_U41
-{  
-    public static void main(String args[]){  
-        try
-        {  
-            
-            System.out.println("going to divide");  
-            int b =39/0;  
-            try
-            {  
-                int a[]=new int[5];  
-                a[5]=4;  
-            }catch(ArrayIndexOutOfBoundsException e)
-            {
-                System.out.println("Caugth : "+e);
-            }  
+class Q4_U41 {
 
-          System.out.println("other statement");  
+    public static void main(String args[]) {
+        try {
+
+            System.out.println("going to divide");
+            int b = 39 / 0;
+            try {
+                int a[] = new int[5];
+                a[5] = 4;
+            } catch (ArrayIndexOutOfBoundsException e) {
+                System.out.println("Caugth : " + e);
+            }
+
+            System.out.println("other statement");
+        } catch (ArithmeticException e) {
+            System.out.println("Caugth : " + e);
         }
-        catch(ArithmeticException e)
-            {
-                System.out.println("Caugth : "+e);
-            }   
 
-        System.out.println("normal flow..");  
-    }  
-} 
+        System.out.println("normal flow..");
+    }
+}
