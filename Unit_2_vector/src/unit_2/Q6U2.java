@@ -43,7 +43,7 @@ public class Q6U2 {
             }
         }
 
-        System.out.println("The Frequency of the Element is: " + count);
+        
     }
 
 }
