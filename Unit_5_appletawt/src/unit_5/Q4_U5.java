@@ -5,6 +5,8 @@
  */
 package unit_5;
 
+import java.awt.TextField;
+
 /**
  *
  * @author prakash
@@ -54,7 +56,7 @@ public class Q4_U5 extends java.awt.Frame {
         label1.setText("Name :");
 
         label2.setName(""); // NOI18N
-        label2.setText("Phone no :");
+        label2.setText("password");
 
         label3.setText("Age :");
 
@@ -63,6 +65,12 @@ public class Q4_U5 extends java.awt.Frame {
         textField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 textField1ActionPerformed(evt);
+            }
+        });
+
+        textField2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                textField2ActionPerformed(evt);
             }
         });
 
@@ -187,6 +195,7 @@ public class Q4_U5 extends java.awt.Frame {
 
     private void button2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button2ActionPerformed
         // TODO add your handling code here:
+        
         label6.setText(textField1.getText()+ " Registered Succesfull ! ");
     }//GEN-LAST:event_button2ActionPerformed
 
@@ -207,6 +216,12 @@ public class Q4_U5 extends java.awt.Frame {
         // TODO add your handling code here:
         System.exit(0);
     }//GEN-LAST:event_button4ActionPerformed
+
+    private void textField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_textField2ActionPerformed
+        // TODO add your handling code here:
+       
+       
+    }//GEN-LAST:event_textField2ActionPerformed
 
     /**
      * @param args the command line arguments

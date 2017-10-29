@@ -140,7 +140,7 @@
     <Component class="java.awt.Label" name="label2">
       <Properties>
         <Property name="name" type="java.lang.String" value="" noResource="true"/>
-        <Property name="text" type="java.lang.String" value="Phone no :"/>
+        <Property name="text" type="java.lang.String" value="password"/>
       </Properties>
     </Component>
     <Component class="java.awt.Label" name="label3">
@@ -159,6 +159,9 @@
       </Events>
     </Component>
     <Component class="java.awt.TextField" name="textField2">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textField2ActionPerformed"/>
+      </Events>
     </Component>
     <Component class="java.awt.TextField" name="textField3">
     </Component>
